@@ -1,5 +1,6 @@
 # %% [markdown]
-# The following is a personal project based on my senior thesis work, looking at how Kazakhstan's relationships changed post-Russian invasion of Ukraine. This project utilizes web scraping for data analysis.
+# The following is a personal project based on my senior thesis work, looking at how Kazakhstan's relationships 
+# changed post-Russian invasion of Ukraine. This project utilizes web scraping for data analysis.
 
 # %%
 #import packages
@@ -21,7 +22,11 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 
 
 # %% [markdown]
-# Headlines from the official website of the Kazakh Embassy are scraped to track Kazakhstan’s diplomatic activity and international engagement. By extracting and analyzing the text of these news updates, it is possible to identify mentions of foreign countries or nationalities that appear in the context of meetings, visits, or official statements. This provides a way to record which countries are engaging with Kazakhstan over time, offering insight into the country’s evolving diplomatic relationships post-invasion of Ukraine.
+# Headlines from the official website of the Kazakh Embassy are scraped to track Kazakhstan’s diplomatic activity and international engagement. 
+# By extracting and analyzing the text of these news updates, it is possible to identify mentions of foreign countries or nationalities that 
+# appear in the context of meetings, visits, or official statements. 
+# This provides a way to record which countries are engaging with Kazakhstan over time,
+# offering insight into the country’s evolving diplomatic relationships post-invasion of Ukraine.
 
 # %%
 driver = webdriver.Chrome()
@@ -161,7 +166,15 @@ plt.savefig("TopMentionedCountries.png")
 
 
 # %% [markdown]
-# Between 2017 and 2025, the headlines published by the Kazakh Embassy most frequently referenced a set of key countries and regions, reflecting the focus of Kazakhstan’s diplomatic engagements. The top mentions include the UN (48), Russia (35), Syria (33), China (28), Afghanistan (27), the EU (22), and the United States (20). These patterns highlight both Kazakhstan’s immediate regional priorities and its broader international partnerships. These countries aren’t surprising, as they confirm what was already known, that Russia and China are major players in the region and that multilateral organizations such as the UN and EU remain central to Kazakhstan’s foreign policy. Now, the key question is whether the relationship between Kazakhstan and Russia has shifted since Russia’s invasion of Ukraine, as global sanctions isolate Moscow and create incentives for it to strengthen its alliances, including potentially deepening ties with Kazakhstan.
+# Between 2017 and 2025, the headlines published by the Kazakh Embassy most frequently referenced a set of key countries and regions, 
+# reflecting the focus of Kazakhstan’s diplomatic engagements. 
+# The top mentions include the UN (48), Russia (35), Syria (33), China (28), Afghanistan (27), the EU (22), and the United States (20). 
+# These patterns highlight both Kazakhstan’s immediate regional priorities and its broader international partnerships.
+# These countries aren’t surprising, as they confirm what was already known,
+# that Russia and China are major players in the region and that multilateral organizations such as the UN and EU remain central to 
+# Kazakhstan’s foreign policy. Now, the key question is whether the relationship between Kazakhstan and Russia 
+# has shifted since Russia’s invasion of Ukraine, as global sanctions isolate Moscow and create incentives for it to strengthen its alliances,
+# including potentially deepening ties with Kazakhstan.
 
 # %%
 # Initialize a DataFrame to track mentions per headline
@@ -222,7 +235,17 @@ plt.savefig("MentionsOfRussiaOverTime.png")
 
 
 # %% [markdown]
-# In the period surrounding Russia’s invasion of Ukraine in February 2022, headlines from the Kazakh Embassy show that Russia was already one of the most frequently mentioned countries in Kazakhstan’s diplomatic reporting. While Russia continues to appear prominently in the embassy’s communications both before and after the invasion, there is no observable increase in mentions following the outbreak of the war. This suggests that, despite Russia’s growing isolation on the global stage, its relationship with Kazakhstan has neither intensified nor collapsed. This dynamic makes sense: Kazakhstan depends on Russia as a powerful neighbor and key partner, making it unlikely to fully align itself with the West against Moscow. At the same time, Kazakhstan is eager to attract investment from the broader international community and remains wary that Russia could one day turn its attention toward them, which discourages fully embracing Moscow either. Looking forward, as more countries distance themselves from Russia, it will be important to see whether they begin treating Kazakhstan as a more significant partner or allow relations to continue along their traditional path.
+# In the period surrounding Russia’s invasion of Ukraine in February 2022, headlines from the Kazakh Embassy show that Russia was already
+# one of the most frequently mentioned countries in Kazakhstan’s diplomatic reporting. 
+# While Russia continues to appear prominently in the embassy’s communications both before and after the invasion,
+# there is no observable increase in mentions following the outbreak of the war. 
+# This suggests that, despite Russia’s growing isolation on the global stage, its relationship with Kazakhstan has neither 
+# intensified nor collapsed. This dynamic makes sense: Kazakhstan depends on Russia as a powerful neighbor and key partner, 
+# making it unlikely to fully align itself with the West against Moscow. 
+# At the same time, Kazakhstan is eager to attract investment from the broader international community and remains wary that 
+# Russia could one day turn its attention toward them, which discourages fully embracing Moscow either. 
+# Looking forward, as more countries distance themselves from Russia, it will be important to see whether they begin treating Kazakhstan
+# as a more significant partner or allow relations to continue along their traditional path.
 
 # %%
 # Resample to monthly totals
@@ -257,6 +280,16 @@ plt.savefig("MentionsOfUSA.png")
 
 
 # %% [markdown]
-# Mentions of the United States in Kazakh Embassy headlines remain consistently infrequent both before and after Russia’s invasion of Ukraine, signaling steady engagement but not necessarily intensified cooperation. Given that Kazakhstan is not a strategically critical partner for the U.S., this pattern suggests that Washington’s current level of attention is sufficient to maintain visibility and influence without requiring major resource commitments. Kazakhstan’s oil and trade ties have helped Russia circumvent some sanctions and it could appear that closer U.S. engagement could contribute to strengthening enforcement. However, due to Kazakhstan’s limited strategic importance and its geographic and economic dependence on Russia, it is unlikely to ever fully align itself with the West. A prudent course of action for the U.S. would be to continue monitoring developments, sustain diplomatic and economic engagement at a measured level, and selectively collaborate on areas of mutual interest—such as regional security, trade, or energy rather than treating Kazakhstan as a high-priority strategic focus.
+# Mentions of the United States in Kazakh Embassy headlines remain consistently infrequent both before and after Russia’s invasion of Ukraine, 
+# signaling steady engagement but not necessarily intensified cooperation. 
+# Given that Kazakhstan is not a strategically critical partner for the U.S., this pattern suggests that Washington’s current level
+# of attention is sufficient to maintain visibility and influence without requiring major resource commitments.
+# Kazakhstan’s oil and trade ties have helped Russia circumvent some sanctions and it could appear that closer U.S. engagement 
+# could contribute to strengthening enforcement. 
+# However, due to Kazakhstan’s limited strategic importance and its geographic and economic dependence on Russia, 
+# it is unlikely to ever fully align itself with the West. A prudent course of action for the U.S. would be to continue
+# monitoring developments, sustain diplomatic and economic engagement at a measured level, and selectively collaborate on areas 
+# of mutual interest—such as regional security, trade, or energy rather than treating Kazakhstan as a high-priority strategic focus.
+
 
 
